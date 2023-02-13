@@ -1,6 +1,6 @@
 #!/bin/bash
 #chmod +x 
-git clone https://github.com/xCoronelMakerx/sbbc.git
-cd sbbc
+git clone https://github.com/ReturnWolf/wolf.git
+cd wolf
 yarn install
 yarn start:init
