@@ -169,23 +169,23 @@ export class Telegram {
 
         const html =
             `Account: ${this.bot.getIdentify()}\n\n` +
-            `<b>Network</b>: ${rede}\n` +
-            `<b>Alert shield</b>: ${alertShield}\n` +
-            `<b>Heroes select at home</b>: ${houseHeroes
+            `<b>:globe_with_meridians:Network</b>: ${rede}\n` +
+            `<b>:bellhop_bell: :bellhop:Alert shield</b>: ${alertShield}\n` +
+            `<b>:house:Heroes select at home</b>: ${houseHeroes
                 .split(":")
                 .join(", ")}\n` +
-            `<b>Percentage of hero life to work</b>: ${minHeroEnergyPercentage}%\n` +
-            `<b>Qty of heroes to work</b>: ${numHeroWork}\n` +
-            `<b>Server</b>: ${server}\n` +
+            `<b>:bar_chart:Percentage of hero life to work</b>: ${minHeroEnergyPercentage}%\n` +
+            `<b>:crossed_swords:Qty of heroes to work</b>: ${numHeroWork}\n` +
+            `<b>:computer:Server</b>: ${server}\n` +
             `<b>Telegram chat ID</b>: ${telegramChatId}\n` +
-            `<b>Telegram KEY</b>: ${telegramKey}\n` +
+            `<b>:key:Telegram KEY</b>: ${telegramKey}\n` +
             `<b>Check telegram chat id</b>: ${getbool(telegramChatIdCheck)}\n` +
             `<b>Alert material</b>: ${alertMaterial}\n` +
             `<b>Max gas reset shield</b>: ${maxGasRepairShield || "No"}\n` +
             `<b>Report rewards</b>: ${
                 reportRewards ? reportRewards + " min" : "No"
             }\n` +
-            `<b>Auto reset shield</b>: ${getbool(resetShieldAuto)}\n` +
+            `<b>:shield:Auto reset shield</b>: ${getbool(resetShieldAuto)}\n` +
             `<b>Ignore qty hero work</b>: ${getbool(ignoreNumHeroWork)}\n` +
             `<b>Type login</b>: ${type}\n` +
             `<b>Bomb version</b>: ${version}`;
