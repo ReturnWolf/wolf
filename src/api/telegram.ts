@@ -169,7 +169,7 @@ export class Telegram {
 
         const html =
             `Account: ${this.bot.getIdentify()}\n\n` +
-            `<b>:globe_with_meridians:Network</b>: ${rede}\n` +
+            `:globe_with_meridians:<b>Network</b>: ${rede}\n` +
             `<b>:bellhop_bell: :bellhop:Alert shield</b>: ${alertShield}\n` +
             `<b>:house:Heroes select at home</b>: ${houseHeroes
                 .split(":")
